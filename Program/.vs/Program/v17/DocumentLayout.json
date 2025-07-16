@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\SBSacademy\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{614DC67D-6A65-41C0-95CE-4450CABCA54B}|Program.vcxproj|C:\\Users\\user\\Desktop\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{614DC67D-6A65-41C0-95CE-4450CABCA54B}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{614DC67D-6A65-41C0-95CE-4450CABCA54B}|Program.vcxproj|C:\\Users\\user\\Desktop\\SBSacademy\\Program\\Source.C||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{614DC67D-6A65-41C0-95CE-4450CABCA54B}|Program.vcxproj|solutionrelative:Source.C||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2769EA49-34F9-4884-A53B-1DC588F74CFA}|..\\Classs1th (Compile)\\Classs1th (Compile).vcxproj|C:\\Users\\user\\Desktop\\SBSacademy\\Classs1th (Compile)\\Source.C||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.C",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Classs1th (Compile)\\Source.C",
+              "RelativeDocumentMoniker": "..\\Classs1th (Compile)\\Source.C",
+              "ToolTip": "C:\\Users\\user\\Desktop\\SBSacademy\\Classs1th (Compile)\\Source.C",
+              "RelativeToolTip": "..\\Classs1th (Compile)\\Source.C",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-16T09:12:59.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Program\\Source.c",
-              "RelativeDocumentMoniker": "Source.c",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Program\\Source.c",
-              "RelativeToolTip": "Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Title": "Source.C",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Program\\Source.C",
+              "RelativeDocumentMoniker": "Source.C",
+              "ToolTip": "C:\\Users\\user\\Desktop\\SBSacademy\\Program\\Source.C",
+              "RelativeToolTip": "Source.C",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAEgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-15T10:25:31.25Z",
               "EditorCaption": ""
