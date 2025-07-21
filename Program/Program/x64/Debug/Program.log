@@ -1,3 +1,2 @@
 ﻿  Source.C
-C:\Users\user\Desktop\SBSacademy\Program\Source.C(37,9): warning C4477: 'printf' : 서식 문자열 '%lf'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned int'입니다.
   Program.vcxproj -> C:\Users\user\Desktop\SBSacademy\Program\x64\Debug\Program.exe
