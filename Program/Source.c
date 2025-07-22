@@ -2,14 +2,14 @@
 
 void main() 
 {
-#pragma region Á¶°Ç¹®
-	// ¾î¶² Á¶°ÇÀÌ ÁÖ¾îÁú ¶§ ÇØ´ç Á¶°Ç¿¡ µû¶ó µ¿ÀÛÀ» ¼öÇàÇÏµµ·Ï ½ÇÇàÇÏ´Â ¸í·É¹®.
+#pragma region ì¡°ê±´ë¬¸
+	// ì–´ë–¤ ì¡°ê±´ì´ ì£¼ì–´ì§ˆ ë•Œ í•´ë‹¹ ì¡°ê±´ì— ë”°ë¼ ë™ìž‘ì„ ìˆ˜í–‰í•˜ë„ë¡ ì‹¤í–‰í•˜ëŠ” ëª…ë ¹ë¬¸.
 
-#pragma region °ü°è ¿¬»êÀÚ
-	// µÎ °³ÀÇ ÇÇ¿¬»êÀÚÀÇ °ªÀ» ºñ±³ÇÏ¿© ±× °á°ú¸¦ 0 ¶Ç´Â 1ÀÌ¶ó´Â °ªÀ¸·Î ³ªÅ¸³»´Â ¿¬»êÀÚ.
+#pragma region ê´€ê³„ ì—°ì‚°ìž
+	// ë‘ ê°œì˜ í”¼ì—°ì‚°ìžì˜ ê°’ì„ ë¹„êµí•˜ì—¬ ê·¸ ê²°ê³¼ë¥¼ 0 ë˜ëŠ” 1ì´ë¼ëŠ” ê°’ìœ¼ë¡œ ë‚˜íƒ€ë‚´ëŠ” ì—°ì‚°ìž.
 
-	// °ü°è ¿¬»êÀÚ´Â Á¶°ÇÀÌ ¸ÂÀ» ¶§ 1ÀÌ¶ó´Â °ªÀ¸·Î ¹ÝÈ¯µÇ¸ç,
-	// Á¶°ÇÀÌ Æ²¸± ¶§ 0ÀÌ¶ó´Â °ªÀ¸·Î ¹ÝÈ¯µÊ.
+	// ê´€ê³„ ì—°ì‚°ìžëŠ” ì¡°ê±´ì´ ë§žì„ ë•Œ 1ì´ë¼ëŠ” ê°’ìœ¼ë¡œ ë°˜í™˜ë˜ë©°,
+	// ì¡°ê±´ì´ í‹€ë¦´ ë•Œ 0ì´ë¼ëŠ” ê°’ìœ¼ë¡œ ë°˜í™˜ë¨.
 
 	//int posX = 10;
 	//int posY = 20;
@@ -25,122 +25,122 @@ void main()
 
 #pragma endregion
 
-#pragma region if¹®
-	// ¾î¶² Æ¯Á¤ÇÑ Á¶°ÇÀ» ºñ±³ÇÏ¿© Á¶°ÇÀÌ ¸Â´Ù¸é ½ÇÇàµÇ´Â ¸í·É¹®.
+#pragma region ifë¬¸
+	// ì–´ë–¤ íŠ¹ì •í•œ ì¡°ê±´ì„ ë¹„êµí•˜ì—¬ ì¡°ê±´ì´ ë§žë‹¤ë©´ ì‹¤í–‰ë˜ëŠ” ëª…ë ¹ë¬¸.
 
-	// if¹®Àº Á¶°ÇÀÌ 1ÀÏ ¶§ ½ÇÇàµÇ¸ç, 0ÀÏ ¶§ ½ÇÇàµÇÁö ¾ÊÀ½.
+	// ifë¬¸ì€ ì¡°ê±´ì´ 1ì¼ ë•Œ ì‹¤í–‰ë˜ë©°, 0ì¼ ë•Œ ì‹¤í–‰ë˜ì§€ ì•ŠìŒ.
 
 	//int health = 0;
 	//if (health <= 0) 
 	//{
-	//	printf("»ç¸ÁÇß½À´Ï´Ù.\n");
+	//	printf("ì‚¬ë§í–ˆìŠµë‹ˆë‹¤.\n");
 	//}
 
 
 #pragma endregion
 
-#pragma region else if¹®
-	// if¹®ÀÇ Á¶°ÇÀÌ Æ²¸± ¶§ else if¹®ÀÇ Á¶°ÇÀÌ ¸Â´Ù¸é ½ÇÇàµÇ´Â ¸í·É¹®.
+#pragma region else ifë¬¸
+	// ifë¬¸ì˜ ì¡°ê±´ì´ í‹€ë¦´ ë•Œ else ifë¬¸ì˜ ì¡°ê±´ì´ ë§žë‹¤ë©´ ì‹¤í–‰ë˜ëŠ” ëª…ë ¹ë¬¸.
 
-    // else if¹®Àº ¿©·¯ ¹ø Á¤ÀÇÇÒ ¼ö ÀÖÀ¸¸ç, if¹®ÀÌ Á¸ÀçÇÒ ¶§ »ç¿ëÇÒ ¼ö ÀÖÀ½.
+    // else ifë¬¸ì€ ì—¬ëŸ¬ ë²ˆ ì •ì˜í•  ìˆ˜ ìžˆìœ¼ë©°, ifë¬¸ì´ ì¡´ìž¬í•  ë•Œ ì‚¬ìš©í•  ìˆ˜ ìžˆìŒ.
 
 	//int level = 99;
 
 	//if (level == 100)
 	//{
-	//	printf("ÀüÁ÷ÀÌ °¡´ÉÇÕ´Ï´Ù.\n");
+	//	printf("ì „ì§ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤.\n");
 	//}
 	//else if (level <= 100)
 	//{
-	//	printf("ÀüÁ÷¿¡ ÇÊ¿äÇÑ ·¹º§ÀÌ ºÎÁ·ÇÕ´Ï´Ù.\n");
+	//	printf("ì „ì§ì— í•„ìš”í•œ ë ˆë²¨ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.\n");
 	//}
 
 #pragma endregion
 
-#pragma region else ¹®
-	// if¹®°ú else if¹®ÀÇ Á¶°ÇÀÌ ´Ù Æ²¸®¸é ½ÇÇàµÇ´Â ¸í·É¹®.
+#pragma region else ë¬¸
+	// ifë¬¸ê³¼ else ifë¬¸ì˜ ì¡°ê±´ì´ ë‹¤ í‹€ë¦¬ë©´ ì‹¤í–‰ë˜ëŠ” ëª…ë ¹ë¬¸.
 
-	// if¹®¿¡ ¿¬°áµÈ ¸ðµç Á¶°Ç¹®ÀÇ Á¶°ÇÀÌ ¸ÂÀ» ¶§ °¡Àå À§¿¡ ÀÖ´Â Á¶°Ç¹®¸¸ ½ÇÇàµÊ.
+	// ifë¬¸ì— ì—°ê²°ëœ ëª¨ë“  ì¡°ê±´ë¬¸ì˜ ì¡°ê±´ì´ ë§žì„ ë•Œ ê°€ìž¥ ìœ„ì— ìžˆëŠ” ì¡°ê±´ë¬¸ë§Œ ì‹¤í–‰ë¨.
 
 	//int integer = 0;
 
 	//if (integer>0)
 	//{
-	//	printf("ÇØ´ç¼ýÀÚ´Â ¾ç¼öÀÔ´Ï´Ù.\n");
+	//	printf("í•´ë‹¹ìˆ«ìžëŠ” ì–‘ìˆ˜ìž…ë‹ˆë‹¤.\n");
 	//}
 	//else if (integer<0)
 	//{
-	//	printf("ÇØ´ç¼ýÀÚ´Â À½¼öÀÔ´Ï´Ù.\n");
+	//	printf("í•´ë‹¹ìˆ«ìžëŠ” ìŒìˆ˜ìž…ë‹ˆë‹¤.\n");
 	//}
 	//else
 	//{
-	//	printf("ÇØ´ç¼ýÀÚ´Â 0ÀÔ´Ï´Ù.\n");
+	//	printf("í•´ë‹¹ìˆ«ìžëŠ” 0ìž…ë‹ˆë‹¤.\n");
 	//}
 #pragma endregion
 
-#pragma region switch¹®
-	// ¾î¶² °á°ú¿¡ µþ¶ó ±× °á°úºÎÅÍ ½ÇÇàµÇ´Â ¸í·É¹®.
+#pragma region switchë¬¸
+	// ì–´ë–¤ ê²°ê³¼ì— ë”¸ë¼ ê·¸ ê²°ê³¼ë¶€í„° ì‹¤í–‰ë˜ëŠ” ëª…ë ¹ë¬¸.
 
-	// switch¹®ÀÇ °æ¿ì Á¶°Ç¿¡ ÇØ´çÇÏ´Â °ª¿¡ µû¶ó Á¶°ÇÀÇ À§Ä¡·Î ÀÌµ¿ÇÔ.
+	// switchë¬¸ì˜ ê²½ìš° ì¡°ê±´ì— í•´ë‹¹í•˜ëŠ” ê°’ì— ë”°ë¼ ì¡°ê±´ì˜ ìœ„ì¹˜ë¡œ ì´ë™í•¨.
 
 	char gradeA = 'B';
 	char gradeB = 'F';
 	char gradeC = 'Z';
 
-	// switch¹®Àº ÇØ´ç Á¶°ÇÀÌ ¿Ï·áµÇ¾úÀ» ¶§, 
-	// break¹®ÀÌ ¾øÀ¸¸é ³ª¸ÓÁö ¸ðµç case¹®À» °è¼Ó ½ÇÇà½ÃÅ°´Ù°¡ Á¾·áÇÔ.
+	// switchë¬¸ì€ í•´ë‹¹ ì¡°ê±´ì´ ì™„ë£Œë˜ì—ˆì„ ë•Œ, 
+	// breakë¬¸ì´ ì—†ìœ¼ë©´ ë‚˜ë¨¸ì§€ ëª¨ë“  caseë¬¸ì„ ê³„ì† ì‹¤í–‰ì‹œí‚¤ë‹¤ê°€ ì¢…ë£Œí•¨.
 
 	switch (gradeA)
 	{
-		case 'A':printf("´ç½ÅÀÇ Á¡¼ö´Â 100Á¡~90Á¡\n");
+		case 'A':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 100ì ~90ì \n");
 			break;
-		case 'B':printf("´ç½ÅÀÇ Á¡¼ö´Â 89Á¡~80Á¡\n");
+		case 'B':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 89ì ~80ì \n");
 			break;
-		case 'C':printf("´ç½ÅÀÇ Á¡¼ö´Â 79Á¡~70Á¡\n");
+		case 'C':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 79ì ~70ì \n");
 			break;
-		case 'D':printf("´ç½ÅÀÇ Á¡¼ö´Â 69Á¡~60Á¡\n");
+		case 'D':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 69ì ~60ì \n");
 			break;
-		case 'F':printf("´ç½ÅÀÇ Á¡¼ö´Â 59Á¡~0Á¡\n");
+		case 'F':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 59ì ~0ì \n");
 			break;
-		default:printf("´ç½ÅÀº ¿ì¸® ÇÐ»ýÀÌ ¾Æ´Õ´Ï´Ù.");
+		default:printf("ë‹¹ì‹ ì€ ìš°ë¦¬ í•™ìƒì´ ì•„ë‹™ë‹ˆë‹¤.");
 	}
 
 
 	switch (gradeB)
 	{
-	case 'A':printf("´ç½ÅÀÇ Á¡¼ö´Â 100Á¡~90Á¡\n");
+	case 'A':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 100ì ~90ì \n");
 		break;
-	case 'B':printf("´ç½ÅÀÇ Á¡¼ö´Â 89Á¡~80Á¡\n");
+	case 'B':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 89ì ~80ì \n");
 		break;
-	case 'C':printf("´ç½ÅÀÇ Á¡¼ö´Â 79Á¡~70Á¡\n");
+	case 'C':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 79ì ~70ì \n");
 		break;
-	case 'D':printf("´ç½ÅÀÇ Á¡¼ö´Â 69Á¡~60Á¡\n");
+	case 'D':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 69ì ~60ì \n");
 		break;
-	case 'F':printf("´ç½ÅÀÇ Á¡¼ö´Â 59Á¡~0Á¡\n");
+	case 'F':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 59ì ~0ì \n");
 		break;
-	default:printf("´ç½ÅÀº ¿ì¸® ÇÐ»ýÀÌ ¾Æ´Õ´Ï´Ù.\n");
+	default:printf("ë‹¹ì‹ ì€ ìš°ë¦¬ í•™ìƒì´ ì•„ë‹™ë‹ˆë‹¤.\n");
 	}
 
 
 	switch (gradeC)
 	{
-	case 'A':printf("´ç½ÅÀÇ Á¡¼ö´Â 100Á¡~90Á¡\n");
+	case 'A':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 100ì ~90ì \n");
 		break;
-	case 'B':printf("´ç½ÅÀÇ Á¡¼ö´Â 89Á¡~80Á¡\n");
+	case 'B':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 89ì ~80ì \n");
 		break;
-	case 'C':printf("´ç½ÅÀÇ Á¡¼ö´Â 79Á¡~70Á¡\n");
+	case 'C':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 79ì ~70ì \n");
 		break;
-	case 'D':printf("´ç½ÅÀÇ Á¡¼ö´Â 69Á¡~60Á¡\n");
+	case 'D':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 69ì ~60ì \n");
 		break;
-	case 'F':printf("´ç½ÅÀÇ Á¡¼ö´Â 59Á¡~0Á¡\n");
+	case 'F':printf("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” 59ì ~0ì \n");
 		break;
-	default:printf("´ç½ÅÀº ¿ì¸® ÇÐ»ýÀÌ ¾Æ´Õ´Ï´Ù.\n");
+	default:printf("ë‹¹ì‹ ì€ ìš°ë¦¬ í•™ìƒì´ ì•„ë‹™ë‹ˆë‹¤.\n");
 	}
 
 
 #pragma endregion
 
-
+// pull request
 
 #pragma endregion
 
