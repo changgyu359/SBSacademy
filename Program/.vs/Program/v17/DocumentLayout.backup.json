@@ -41,8 +41,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "ViewState": "AgIAAHECAAAAAAAAAAAewIYCAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-21T10:01:09.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T10:01:09.145Z"
             },
             {
               "$type": "Document",
@@ -54,8 +53,7 @@
               "RelativeToolTip": "..\\Class4th (Overflow \u0026 Underflow)\\Source.c",
               "ViewState": "AgIAABIAAAAAAAAAAAAUwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-07-21T09:38:52.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T09:38:52.126Z"
             },
             {
               "$type": "Document",
@@ -97,11 +95,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.C",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Program\\Source.C",
-              "RelativeDocumentMoniker": "Source.C",
-              "ToolTip": "C:\\Users\\user\\Desktop\\SBSacademy\\Program\\Source.C*",
-              "RelativeToolTip": "Source.C*",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAQwH4AAAAnAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Program\\Source.c",
+              "RelativeDocumentMoniker": "Source.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\SBSacademy\\Program\\Source.c*",
+              "RelativeToolTip": "Source.c*",
+              "ViewState": "AgIAANMAAAAAAAAAAAAUwPMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-15T10:25:31.25Z",
               "EditorCaption": ""
