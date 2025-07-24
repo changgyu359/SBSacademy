@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClCompile Include="Source.C" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utility.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
