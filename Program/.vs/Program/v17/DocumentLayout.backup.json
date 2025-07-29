@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{614DC67D-6A65-41C0-95CE-4450CABCA54B}|Program.vcxproj|solutionrelative:Source.C||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B5F7CF5B-57BB-4F03-A82B-ABAA927C1B66}|..\\Class8th (Pointer)\\Class8th (Pointer).vcxproj|C:\\Users\\user\\Desktop\\SBSacademy\\Class8th (Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE1FD563-F0A9-4E26-8350-EF0895EA432C}|..\\Class7th (Type Conversion)\\Class7th (Type Conversion).vcxproj|C:\\Users\\user\\Desktop\\SBSacademy\\Class7th (Type Conversion)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -42,11 +45,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Class8th (Pointer)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class8th (Pointer)\\Source.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\SBSacademy\\Class8th (Pointer)\\Source.c",
+              "RelativeToolTip": "..\\Class8th (Pointer)\\Source.c",
+              "ViewState": "AgIAADIAAAAAAAAAAAAlwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-29T09:11:35.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Class4th (Overflow \u0026 Underflow)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class4th (Overflow \u0026 Underflow)\\Source.c",
@@ -58,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Class3th (Bit)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class3th (Bit)\\Source.c",
@@ -70,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Class2th (Variable \u0026 Constant)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class2th (Variable \u0026 Constant)\\Source.c",
@@ -82,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Source.C",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Classs1th (Compile)\\Source.C",
               "RelativeDocumentMoniker": "..\\Classs1th (Compile)\\Source.C",
@@ -100,27 +116,27 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\user\\Desktop\\SBSacademy\\Program\\Source.c*",
               "RelativeToolTip": "Source.c*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAEwI4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAEwDwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-15T10:25:31.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Class7th (Type Conversion)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class7th (Type Conversion)\\Source.c",
               "ToolTip": "C:\\Users\\user\\Desktop\\SBSacademy\\Class7th (Type Conversion)\\Source.c",
               "RelativeToolTip": "..\\Class7th (Type Conversion)\\Source.c",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-24T10:39:20.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Class6th (Iteration Statement)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class6th (Iteration Statement)\\Source.c",
@@ -128,12 +144,11 @@
               "RelativeToolTip": "..\\Class6th (Iteration Statement)\\Source.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-07-24T09:08:11.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T09:08:11.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "stdio.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
@@ -145,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "utility.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Program\\utility.h",
               "RelativeDocumentMoniker": "utility.h",
@@ -157,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Sorce.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SBSacademy\\Class5th (Conditional Statement)\\Sorce.c",
               "RelativeDocumentMoniker": "..\\Class5th (Conditional Statement)\\Sorce.c",
