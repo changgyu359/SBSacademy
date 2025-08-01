@@ -23,6 +23,27 @@ void print_status(char grade, int height, float temperature)
 	printf("체온 : %f\n", temperature);
 }
 
+void swap(int* a, int* b)
+{
+	int temp=*a;
+	*a = *b;
+	*b = temp;
+
+}
+
+void find(int count)
+{if(count<=0)
+{	
+	printf("find fail.\n");
+	return;
+}
+
+	printf("%d\n",count);
+	
+	find(count-1);
+}
+
+
 void main()
 {
 #pragma region 함수
@@ -49,7 +70,42 @@ void main()
 	// 하나의 함수에 서로 다른 자료형의 매개 변수를 함께 정의할 수 있으며,
 	// 여러 개의 매개 변수를 생성할 수 있음.
 
-	print_status('A', 160, 36.5);
+	//print_status('A', 160, 36.5);
 #pragma endregion
+
+#pragma region 인수
+	// 함수가 호출될 때 매개 변수에 실제로 전달되는 값.
+
+	// 인수의 경우 함수에 있는 매개 변수에 따라 전달할 수 있는 인수의 수가 결정되며,
+	// 값을 전달하는 인수와 값을 전달받는 매개 변수의 자료형이 서로 일치해야함.
+
+
+
+	//int x1 = 10;
+	//int y1 = 20;
+
+	//swap(&x1, &y1);
+
+	//
+
+	//printf("실제값\n");
+	//printf("x1=%d,y1=%d\n", x1, y1);
+
+	
+
+#pragma endregion
+
+#pragma region 재귀 함수
+	// 어떤 함수에서 자신을 다시 호출하여 작업을 수행하는 함수.
+
+	// 재귀 함수는 함수를 계속 호출하기 때문에 
+	// 스택 영역에 메모리가 계속 쌓이게 되므로 스택 오버플로우가 발생함.
+
+
+	find(3);
+
+
+#pragma endregion
+
 
 }
