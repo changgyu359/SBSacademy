@@ -1,44 +1,74 @@
 ﻿#include<stdio.h>
-#include<stdlib.h>
+#include<math.h>
 
+struct Data
+{
+	char grade;
+	int health;
+	double exp;
+};
 
-
-
+struct Distance
+{
+	double x;
+	double y;
+};
 
 int main()
 {
-#pragma region 동적 할당
-	// 프로그램을 실행하는 중에 필요한 만큼 메모리를 할당하는 작업.
+#pragma region 구조체
+	// 여러 개의 변수를 하나의 집합으로 구조화한 다음 하나의 객체를 생성하는 것.
 
-	int* pointer = (int*) malloc(4);
+	// 구조체를 선언하기 전에 구조체는 메모리 공간이 생성되지 않으므로,
+	// 구조체 내부에 있는 데이터를 초기화할 수 없음.
 
-	*pointer = 10;
+	//struct Data data = { 'B',50,75.625 };
 
-	printf("pointer가 가리키는 값:%d\n", *pointer);
-	
-	// 동적 할당은 실행 시간에 가변적으로 메모리의 크기를 변경할 수 있으며,
-	// 동적으로 메모리의 크기를 할당할 때 바이트 단위로 지정함.
-	
-	free(pointer);
-	// 동적으로 할당한 메모리는 힙 영역에 보관되어 있으므로,
-	// 사용이 끝나면 직접 해제해주어야 함.
+	//printf("현재 등급:%c\n", data.grade);
+	//printf("현재 체력:%d\n", data.health);
+	//printf("현재 경험치:%lf\n\n", data.exp);
 
 
-	// 과제 동적배열 만들기
-	// 1.int를 사용해 3개짜리 배열을 만든다.
-	// 2.pointer를 동적배열에 연결
-	// 3.각 배열에 차례로 10,20,30을 넣는다.
-	// 4.출력 해보고 포인터 해제
+	//// 구조체의 각 멤버는 구조체 선언에서 나타나는 순서대로 초기화됨.
+	//// 이 순서는 초기화 목록의 값들이 왼쪽에서부터 오른쪽으로 대응됨.
 
-	pointer = malloc(3);
+	//data.grade = 'S';
+	//data.health = 10;
+	//data.exp = 10.5;
 
-	for (int i = 0, i < 3; i++)
-	{
-
-	}
+	//printf("현재 등급:%c\n", data.grade);
+	//printf("현재 체력:%d\n", data.health);
+	//printf("현재 경험치:%lf\n", data.exp);
 
 #pragma endregion
 
+#pragma region 두 점 사이의 거리
+
+	//sqrt(49); //루트
+	//pow(5, 2); //제곱근, x의y승 이라는 표현
+
+	int player_x = 1;
+	int player_y = 1;
+	int enemy_x = 5;
+	int enemy_y = 2;
+
+	struct Distance distance;
+
+	distance.x = player_x - enemy_x;
+	distance.y = player_y - enemy_y;
+
+	if (sqrt(pow(distance.x, 2) + pow(distance.y, 2)) >= 5)
+	{
+		printf("적의 상태:idle");
+	}
+	else
+	{
+		printf("적의 상태:attack");
+	}
+
+
+
+#pragma endregion
 
 	return 0;
 }
