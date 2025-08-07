@@ -6,6 +6,7 @@ struct Data
 	char grade;
 	int health;
 	double exp;
+
 };
 
 struct Distance
@@ -13,6 +14,23 @@ struct Distance
 	double x;
 	double y;
 };
+
+struct Data2
+{
+	char grade;
+	double exp;
+	int health;
+	
+};
+
+struct Node
+{
+	int data;
+	struct Node* next;
+
+};
+
+
 
 int main()
 {
@@ -47,27 +65,61 @@ int main()
 	//sqrt(49); //루트
 	//pow(5, 2); //제곱근, x의y승 이라는 표현
 
-	int player_x = 1;
-	int player_y = 1;
-	int enemy_x = 5;
-	int enemy_y = 2;
+	
 
-	struct Distance distance;
+	//struct Distance player = { 1,1 };
+	//struct Distance enemy = { 5,2 };
+	//
+	//double distance_x = player.x - enemy.x;
+	//double distance_y = player.y - enemy.y;
 
-	distance.x = player_x - enemy_x;
-	distance.y = player_y - enemy_y;
+	//if (sqrt(pow(distance_x, 2) + pow(distance_y, 2)) >= 5)
+	//{
+	//	printf("적의 상태:idle");
+	//}
+	//else
+	//{
+	//	printf("적의 상태:attack");
+	//}
 
-	if (sqrt(pow(distance.x, 2) + pow(distance.y, 2)) >= 5)
+
+
+#pragma endregion
+
+#pragma region 바이트 패딩
+	// 멤버 변수를 메모리에서 CPU로 읽을 때 한 번에 읽을 수 있도록,
+	// 컴파일러가 레지스터의 블록에 맞추어 바이트를 패딩해주는 최적화 작업.
+
+	// 구조체의 크기는 구조체를 구성하는 멤버 중에서 크기가 가장 큰 자료형의 배수가 되도록 정렬함.
+
+	//printf("Data 의 크기:%zd\n",sizeof(struct Data));
+	//printf("Data2의 크기:%zd\n", sizeof(struct Data2));
+
+	// 구조체 크기의 경우 멤버 변수의 순서에 따라 메모리의 크기가 다르게 설정될 수 있음.
+#pragma endregion
+
+#pragma region 자기 참조 구조체
+		
+	struct Node node2= { 20,NULL };
+	
+	struct Node node3= { 30,NULL };
+	
+	struct Node node1 = {10,&node2};
+
+	node2.next=&node3;
+
+
+	struct Node* currentNode = &node1;
+
+	while (currentNode != NULL)
 	{
-		printf("적의 상태:idle");
+		printf("%d ", currentNode->data);
+
+		currentNode = currentNode->next;
 	}
-	else
-	{
-		printf("적의 상태:attack");
-	}
+	
 
-
-
+	
 #pragma endregion
 
 	return 0;

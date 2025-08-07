@@ -1,2 +1,2 @@
 ﻿  Source.C
-  Program.vcxproj -> C:\Users\user\Desktop\SBSacademy\Program\x64\Debug\Program.exe
+C:\Users\user\Desktop\SBSacademy\Program\Source.C(116,17): error C2231: '.data': 왼쪽 피연산자가 'struct'을(를) 가리킵니다. '->'를 사용하십시오.
